@@ -1,0 +1,23 @@
+import java.util.*;
+
+public class Main {
+    public static void main(String[] args) {
+      
+      double num1 = (0 * 9/5) + 32;
+      double num2 = (32 - 32) *5/9;
+      double num3 = (100 - 32) *5/9;
+      double num4 = (100 * 9/5) + 32;
+      double num5 = (25 * 9/5) + 32;
+      double num6 = (-10 * 9/5) +32;
+      double num7 = (-40 - 32) *5/9;
+      
+      System.out.println("0C A F es igual a " + num1);
+      System.out.println("32F A C es igual a " + num2);
+      System.out.println("100F A C es igual a " + num3);
+      System.out.println("100C A F es igual a " + num4);
+      System.out.println("25C A F es igual a " + num5);
+      System.out.println("-10C A F es igual a " + num6);
+      System.out.println("-40F A C es igual a " + num7);
+      
+  }
+}
